@@ -66,10 +66,10 @@ public class AlumnoDTO implements Serializable {
     
     private Connection conexion;
     private void obtenerConexion(){
-        String usuario="root";
-        String clave="root";
-        String url ="jdbc:mysql://localhost:3306/EscuelaWeb";
-        String driverBD="com.mysql.cj.jdbc.Driver";
+        String usuario = "subvbtdnmokmkb";
+        String clave = "78c8cd24ae3148418c052786c56b03e84a846dcd69b8070d8cdc05b61cab1c24";
+        String url = "jdbc:postgresql://ec2-34-230-153-41.compute-1.amazonaws.com:5432/d2mtktm1jrjb1i";
+        String driverBD="org.postgresql.Driver";
         try {
             Class.forName(driverBD);
             conexion = DriverManager.getConnection(url,usuario, clave);

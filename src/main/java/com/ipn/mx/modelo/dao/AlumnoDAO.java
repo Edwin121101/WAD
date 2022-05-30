@@ -37,14 +37,14 @@ public class AlumnoDAO {
 
     private void obtenerConexion() {
         //obtener conexion
-        String usuario = "root";
-        String clave = "root";
-        String url = "jdbc:mysql://localhost:3306/EscuelaWeb?serverTimezone=America/Mexico_City&allowPublicKeyRetrieval=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&useSSL=false";
+        String usuario = "subvbtdnmokmkb";
+        String clave = "78c8cd24ae3148418c052786c56b03e84a846dcd69b8070d8cdc05b61cab1c24";
+        String url = "jdbc:postgresql://ec2-34-230-153-41.compute-1.amazonaws.com:5432/d2mtktm1jrjb1i";
         //String url = "jdbc:mysql://localhost:3306/EscuelaWeb?
         //serverTimeZone=America/Mexico_City&allowPublicKeyRetrieval=true&
         //useSSL=false";
 
-        String driverBD = "com.mysql.cj.jdbc.Driver";
+        String driverBD = "org.postgresql.Driver";
 
         try {
             Class.forName(driverBD);
