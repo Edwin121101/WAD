@@ -1,0 +1,7 @@
+com\ipn\mx\modelo\dao\AlumnoDAO.class
+com\ipn\mx\modelo\entidades\Carrera.class
+com\ipn\mx\modelo\entidades\Usuario.class
+com\ipn\mx\modelo\dao\CarreraDAO.class
+com\ipn\mx\modelo\dto\AlumnoDTO.class
+com\ipn\mx\modelo\dto\CarreraDTO.class
+com\ipn\mx\modelo\entidades\Alumno.class
