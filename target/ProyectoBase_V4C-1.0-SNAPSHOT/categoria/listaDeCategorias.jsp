@@ -1,10 +1,10 @@
 <%-- 
     Document   : listaDeCategorias
     Created on : 4 abr. 2022, 08:13:30
-    Author     : darkdestiny
+    Author     : Edwin VD
 --%>
 
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
