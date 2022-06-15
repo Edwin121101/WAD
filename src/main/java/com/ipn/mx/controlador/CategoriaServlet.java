@@ -155,7 +155,6 @@ public class CategoriaServlet extends HttpServlet {
         } catch (SQLException | ServletException | IOException ex) {
             Logger.getLogger(CategoriaServlet.class.getName()).log(Level.SEVERE, null, ex);
         }
-
     }
 
     private void crearCategoria(HttpServletRequest request, HttpServletResponse response) {
