@@ -103,6 +103,8 @@ public class CategoriaServlet extends HttpServlet {
             out.println("</html>");
         }
     }
+    
+    /* AQUÍ SE DIRIGEEEEEEEE TODO*/
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
