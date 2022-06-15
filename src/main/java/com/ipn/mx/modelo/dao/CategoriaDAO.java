@@ -36,12 +36,12 @@ public class CategoriaDAO {
         //obtener conexion
         String usuario = "agjeoqixqijrxl";
         String clave = "03ecc93a9732396b7ea5106bd63a3013404066d2ece2095abb009ba1603b09c8";
-        String url = "jdbc:postresql://ec2-34-198-186-145.compute-1.amazonaws.com:5432/dcubv8l6n3mujq";
+        String url = "jdbc:postgresql://ec2-34-198-186-145.compute-1.amazonaws.com:5432/dcubv8l6n3mujq";
         //String url = "jdbc:mysql://localhost:3306/EscuelaWeb?
         //serverTimeZone=America/Mexico_City&allowPublicKeyRetrieval=true&
         //useSSL=false";
 
-        String driverBD = "org.postresql.Driver";
+        String driverBD = "org.postgresql.Driver";
 
         try {
             Class.forName(driverBD);
