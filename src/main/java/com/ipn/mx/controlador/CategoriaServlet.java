@@ -56,7 +56,6 @@ public class CategoriaServlet extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-
         String accion = request.getParameter("accion");
         if (accion.equals("listaDeCategorias")) {
             listadoCategorias(request, response);
@@ -89,8 +88,6 @@ public class CategoriaServlet extends HttpServlet {
                 }
             }
         }
-
-        
         try (PrintWriter out = response.getWriter()) {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
