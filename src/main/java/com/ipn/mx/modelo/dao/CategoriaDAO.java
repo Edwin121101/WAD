@@ -22,11 +22,11 @@ import java.util.logging.Logger;
  * @author darkdestiny
  */
 public class CategoriaDAO {
-    private static final String SQL_INSERT="{call spInsertar( ?, ?)}";
-    private static final String SQL_UPDATE="{call spActualizar (?, ? ,?)}";
-    private static final String SQL_DELETE="{call spEliminar(?)}";
-    private static final String SQL_READ="{call spSeleccionarUno(?)}";
-    private static final String SQL_READ_ALL="{call spSeleccionarTodo()}";
+    private static final String SQL_INSERT="insert into Carrera (nombreCategoria, descripcionCategoria)";
+    private static final String SQL_UPDATE="UPDATE Categoria SET nombreCategoria = ?, descripcionCategoria = ? WHERE idCategoria = ?";
+    private static final String SQL_DELETE="DELETE FROM Categoria where idCategoria = ?";
+    private static final String SQL_READ="SELECT * FROM Categoria WHERE idCategoria = ?";
+    private static final String SQL_READ_ALL="SELECT * FROM Categoria";
     
     private static final String SQL_GRAFICAR="select Categoria.nombreCategoria, count(articulo.idArticulo) as cantidad from Categoria inner join Articulo on categoria.idCategoria = Articulo.idCategoria group by Categoria.idCategoria;";
  
@@ -34,14 +34,14 @@ public class CategoriaDAO {
     
      public Connection obtenerConexion() {
         //obtener conexion
-        String usuario = "root";
-        String clave = "root";
-        String url = "jdbc:mysql://localhost:3306/ProyectoBase4?serverTimezone=America/Mexico_City&allowPublicKeyRetrieval=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&useSSL=false";
+        String usuario = "agjeoqixqijrxl";
+        String clave = "03ecc93a9732396b7ea5106bd63a3013404066d2ece2095abb009ba1603b09c8";
+        String url = "jdbc:postresql://ec2-34-198-186-145.compute-1.amazonaws.com:5432/dcubv8l6n3mujq";
         //String url = "jdbc:mysql://localhost:3306/EscuelaWeb?
         //serverTimeZone=America/Mexico_City&allowPublicKeyRetrieval=true&
         //useSSL=false";
 
-        String driverBD = "com.mysql.cj.jdbc.Driver";
+        String driverBD = "org.postresql.Driver";
 
         try {
             Class.forName(driverBD);
