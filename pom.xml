@@ -15,14 +15,14 @@
     </properties>
     
     <dependencies>
-        <!--
-<dependency>
-    <groupId>javax</groupId>
-    <artifactId>javaee-web-api</artifactId>
-    <version>7.0</version>
-    <scope>provided</scope>
-</dependency>
-        -->
+        
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-web-api</artifactId>
+            <version>7.0</version>
+            <scope>provided</scope>
+        </dependency>
+        
         <dependency>
             <groupId>com.github.jsimone</groupId>
             <artifactId>webapp-runner</artifactId>
@@ -30,12 +30,13 @@
             <scope>provided</scope>
         </dependency>
         
+        <!--
         <dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
             <version>5.0.0</version>
             <scope>provided</scope>
-        </dependency>
+        </dependency> -->
 
         <dependency>
             <groupId>mysql</groupId>
@@ -58,12 +59,13 @@
             <scope>provided</scope>
         </dependency>
         
+        <!--
         <dependency>
             <groupId>jakarta.servlet.jsp.jstl</groupId>
             <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
             <version>2.0.0</version>
         </dependency>
-        
+        -->
         <!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
         <dependency>
             <groupId>net.sf.jasperreports</groupId>
@@ -85,7 +87,13 @@
             <artifactId>javax.mail</artifactId>
             <version>1.6.2</version>
         </dependency>
-
+        
+        <!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl-api -->
+        <dependency>
+            <groupId>javax.servlet.jsp.jstl</groupId>
+            <artifactId>jstl-api</artifactId>
+            <version>1.2</version>
+        </dependency>
 
     </dependencies>
 
@@ -138,6 +146,8 @@
                                     <version>9.0.27.1</version>
                                     <destFileName>webapp-runner.jar</destFileName>
                                 </artifactItem>
+                                
+                             
                             </artifactItems>
                         </configuration>
                     </execution>
