@@ -4,7 +4,7 @@
     Author     : Edwin VD
 --%>
 
-<%@ include file="/WEB-INF/views/include.jsp" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
