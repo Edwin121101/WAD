@@ -1,0 +1,9 @@
+com\ipn\mx\modelo\entidades\Articulos.class
+com\ipn\mx\controlador\CategoriaServlet.class
+com\ipn\mx\modelo\dto\ArticuloDTO.class
+com\ipn\mx\modelo\dto\DatosGraficaDTO.class
+com\ipn\mx\modelo\dao\CategoriaDAO.class
+com\ipn\mx\modelo\dto\CategoriaDTO.class
+com\ipn\mx\utilerias\Utileria.class
+com\ipn\mx\modelo\dao\ArticuloDAO.class
+com\ipn\mx\modelo\entidades\Categoria.class
