@@ -37,12 +37,14 @@
             <version>5.0.0</version>
             <scope>provided</scope>
         </dependency> -->
-
+        
+        <!--
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.28</version>
         </dependency>
+        -->
         
         <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
         <dependency>
@@ -147,7 +149,6 @@
                                     <destFileName>webapp-runner.jar</destFileName>
                                 </artifactItem>
                                 
-                             
                             </artifactItems>
                         </configuration>
                     </execution>
