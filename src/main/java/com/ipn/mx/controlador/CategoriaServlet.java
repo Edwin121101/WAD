@@ -90,7 +90,7 @@ public class CategoriaServlet extends HttpServlet {
             }
         }
 
-        /*
+        
         try (PrintWriter out = response.getWriter()) {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
@@ -102,7 +102,6 @@ public class CategoriaServlet extends HttpServlet {
             out.println("</body>");
             out.println("</html>");
         }
-         */
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
