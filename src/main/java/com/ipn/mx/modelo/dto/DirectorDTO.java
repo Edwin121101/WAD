@@ -67,10 +67,10 @@ public class DirectorDTO implements Serializable {
     
     private Connection conexion;
     private void obtenerConexion(){
-        String usuario="root";
-        String clave="root";
-        String url ="jdbc:mysql://localhost:3306/Cinema22";
-        String driverBD="com.mysql.cj.jdbc.Driver";
+        String usuario="lauozpxgsrwnzj";
+        String clave="c525a73012080870fb4b718e683ad8de986251cc8cbd454c5bb70a051a0313ec";
+        String url ="jdbc:postgresql://ec2-34-207-12-160.compute-1.amazonaws.com:5432/d6mdi1uk6hpjd";
+        String driverBD="org.postgresql.Driver";
         try {
             Class.forName(driverBD);
             conexion = DriverManager.getConnection(url,usuario, clave);
