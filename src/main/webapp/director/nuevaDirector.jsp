@@ -4,7 +4,6 @@
     Author     : Edwin VD
 --%>
 
-
 <%@page import="com.ipn.mx.modelo.dao.DirectorDAO" %>
 <%@page import="java.sql.SQLException" %>
 <%@page import="java.util.List" %>
@@ -12,7 +11,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-       
         <title>nuevaAlumno</title>
         <link rel="stylesheet" href="../styles/styles.css" type="text/css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />

@@ -14,7 +14,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-     
         <title>Listado Carrera</title>
         <link rel="stylesheet" href="../styles/styles.css" type="text/css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />

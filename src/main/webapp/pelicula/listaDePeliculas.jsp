@@ -47,7 +47,7 @@
             <div class="mb-3"></div>
                 <div class="card-header text-light">
                     <h1 class="text-center">
-                        Cátalogo
+                        Catálogo
                     </h1>
                 </div>
                 <div class="card-body text-primary">

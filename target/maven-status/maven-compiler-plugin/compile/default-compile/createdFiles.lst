@@ -1,3 +1,9 @@
+com\ipn\mx\modelo\dao\SeccionDAO.class
+com\ipn\mx\modelo\entidades\Seccion.class
+com\ipn\mx\modelo\dto\DirectorDTO.class
+com\ipn\mx\modelo\dto\SeccionDTO.class
+com\ipn\mx\modelo\dao\DirectorDAO.class
 com\ipn\mx\modelo\entidades\Pelicula.class
 com\ipn\mx\modelo\dto\PeliculaDTO.class
+com\ipn\mx\modelo\entidades\Director.class
 com\ipn\mx\modelo\dao\PeliculaDAO.class

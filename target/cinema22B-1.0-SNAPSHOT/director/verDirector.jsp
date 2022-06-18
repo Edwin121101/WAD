@@ -4,15 +4,13 @@
     Author     : Edwin VD
 --%>
 
-
 <%@page import="com.ipn.mx.modelo.dao.DirectorDAO" %>
 <%@page import="java.sql.SQLException" %>
 <%@page import="java.util.List" %>
 <%@page import="com.ipn.mx.modelo.dto.DirectorDTO" %>
 <!DOCTYPE html>
 <html>
-    <head>
-     
+    <head>     
         <title>Ver Director</title>
         <link rel="stylesheet" href="../styles/styles.css" type="text/css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
